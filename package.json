@@ -23,8 +23,7 @@
     "build": "npx @keshavsoft/build-cli"
   },
   "dependencies": {
-    "dom-primitive-bindings": "file:../dom-primitive-bindings",
-    "dom-traversal-functions": "file:../dom-traversal-functions"
-  },
-  "devDependencies": {}
+    "dom-primitive-bindings": "^1.7.3",
+    "dom-traversal-functions": "^1.2.1"
+  }
 }
