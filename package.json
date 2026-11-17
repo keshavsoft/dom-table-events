@@ -1,0 +1,30 @@
+{
+  "name": "dom-table-events",
+  "version": "1.1.0",
+  "description": "Pre-cooked table event workflows, container delegation, and action dispatchers for component tables",
+  "type": "module",
+  "license": "MIT",
+  "author": "KeshavSoft",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavsoft/dom-table-events.git"
+  },
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./actions": "./src/v1/actions/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "docs"
+  ],
+  "scripts": {
+    "build": "npx @keshavsoft/build-cli"
+  },
+  "dependencies": {
+    "dom-primitive-bindings": "file:../dom-primitive-bindings",
+    "dom-traversal-functions": "file:../dom-traversal-functions"
+  },
+  "devDependencies": {}
+}
